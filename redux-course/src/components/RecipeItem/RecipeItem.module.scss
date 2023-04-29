@@ -1,0 +1,26 @@
+.item {
+  background-color: #3fa2ff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+
+  h3 {
+    margin-bottom: 5px;
+  }
+}
+
+.button {
+  background-color: #ff7db3;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 4px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #4a7d43;
+  }
+}
